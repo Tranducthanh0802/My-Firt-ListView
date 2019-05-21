@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/Hinh"
+        android:layout_width="125dp"
+        android:layout_height="125dp" />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/Ten"
+        android:textColor="#ff10"
+        android:padding="5dp"
+        android:text="HoTen"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/Hinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:textColor="#CD3"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:text="tuoi"
+        android:id="@+id/Tuoi"
+        android:layout_below="@id/Ten"
+        android:layout_toRightOf="@id/Hinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/Hinh"
+            android:layout_below="@id/Tuoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vitri"
+            android:textSize="15sp"
+            android:id="@+id/Vitri"
+            android:padding="5dp"
+            android:textColor="#AA3"
+            />
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/Vitri"
+            android:text="Quoc Tich"
+            android:id="@+id/QuocTich"
+            android:padding="5dp"
+            android:layout_toRightOf="@id/Hinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</RelativeLayout>
